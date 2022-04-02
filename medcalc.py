@@ -7,7 +7,7 @@ st.title("リフィル計算機")
 
 
 rxdate = st.date_input("調剤日を入力してください")
-diff_day = st.number_input("処方日数を入力してください",min_value=1)
+diff_day = st.number_input("処方日数を入力してください",min_value=1,value=28)
 rxday = timedelta(days= diff_day)
 
 rxday2 = rxdate + rxday
