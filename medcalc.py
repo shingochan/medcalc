@@ -16,5 +16,5 @@ rxday_min = rxday2 - timedelta(days = 7)
 rxday_max = rxday2 + timedelta(days = 7)
 
 st.write(
-    f"次回調剤予定日は{rxday2}です。リフィル可能な日付は{rxday_min}から{rxday_max}までです。"
+    f"次回調剤予定日は{rxday2}です。リフィル可能な期間は{rxday_min}から{rxday_max}までです。"
     )
