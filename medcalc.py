@@ -16,5 +16,5 @@ rxday_min = rxday2 - timedelta(days = 7)
 rxday_max = rxday2 + timedelta(days = 7)
 
 st.markdown(
-    f"次回調剤予定日：**{rxday2}**  \nリフィル対応期間：**{rxday_min}**〜**{rxday_max}**  \n"
+    f"次回調剤予定日　：**{rxday2}**  \nリフィル対応期間：**{rxday_min}**〜**{rxday_max}**  \n"
     )
