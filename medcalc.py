@@ -8,7 +8,7 @@ import app2
 
 PAGES = {
     "リフィル計算機": app1,
-    "CCr": app2
+    "クレアチニンクリアランス計算機": app2
 }
 st.sidebar.title('アプリ選択')
 selection = st.sidebar.radio("アプリを選んでください", list(PAGES.keys()))
