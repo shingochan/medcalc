@@ -7,7 +7,7 @@ import app2
 
 
 PAGES = {
-    "リフィル": app1,
+    "リフィル計算機": app1,
     "CCr": app2
 }
 st.sidebar.title('アプリ選択')
