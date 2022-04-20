@@ -7,6 +7,7 @@ hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
+            section.main div.block-container {padding: 1rem 1rem 1rem !important;}
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
