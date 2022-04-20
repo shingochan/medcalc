@@ -25,5 +25,5 @@ if print_layout:
 else:
     st.write('リフィル計算機です。サイドバーに調剤日と処方日数を入力してください。')
     st.markdown(
-        f"　次回調剤予定日　：**{rxday2}**  \nリフィル対応期間：**{rxday_min}**〜**{rxday_max}**  \n"
+        f"　次回調剤予定日：**{rxday2}**  \nリフィル対応期間：**{rxday_min}**〜**{rxday_max}**  \n"
         )
