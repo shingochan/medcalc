@@ -19,7 +19,7 @@ print_layout = st.sidebar.checkbox('印刷レイアウト')
 
 if print_layout:
     st.markdown(
-    f"　次回来局予定日は**{rxday2.month}月{rxday2.day}日**です。  \nリフィル調剤可能な期間は**{rxday_min.month}月{rxday_min.day}**から**{rxday_max.month}月{rxday_max.day}日**までです。  \n"
+    f"　次回来局予定日は  \n**{rxday2.month}月{rxday2.day}日**です。  \nリフィル調剤可能な期間は  \n**{rxday_min.month}月{rxday_min.day}**から**{rxday_max.month}月{rxday_max.day}日**です。  \n"
     )
     st.sidebar.write('サイドバーを閉じてからラベルプリンタで印刷してください。')
 else:
