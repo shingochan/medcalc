@@ -2,6 +2,14 @@ import streamlit as st
 import datetime
 from datetime import date, timedelta, timezone
 
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
+
 
 jst = timezone(timedelta(hours=9), 'JST')
 dt_now = datetime.datetime.now(jst)
