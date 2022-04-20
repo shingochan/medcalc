@@ -2,6 +2,7 @@ import streamlit as st
 import datetime
 from datetime import date, timedelta, timezone
 
+st.set_page_config(page_title="リフィル計算機",page_icon=":calendar:",)
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
