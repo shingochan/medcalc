@@ -33,7 +33,7 @@ if print_layout:
     )
     st.sidebar.write('サイドバーを閉じて、ラベルプリンタで印刷してください。')
 else:
-    st.markdown('リフィル計算機です。  \n**>**を押してサイドバーに調剤日と処方日数を入力してください。')
+    st.markdown('リフィル計算機です。  \n>を押してサイドバーに調剤日と処方日数を入力してください。')
     st.markdown(
         f"　次回調剤予定日：**{rxday2}**  \nリフィル対応期間：**{rxday_min}**〜**{rxday_max}**  \n"
         )
